@@ -1,0 +1,41 @@
+name: personality_peter_griffin
+display_name: Peter Griffin
+description: "Peter Griffin character-persona engine for Project Instar - short loud declaratives, the cutaway-tangent engine, confident wrongness and instant enthusiasm across 20 categories and 6 layers. Unofficial fan persona of a fictional character."
+type: personality
+category: Personality
+icon: beer
+color: amber
+version: 1.0.0
+database: true
+
+admin_panel: admin.html
+admin_label: Personality
+admin_api: admin_api.py
+avatar: avatar.jpg
+
+tags:
+  - personality
+  - voice
+  - fictional-character
+  - star-trek
+  - fictional-character
+
+layers:
+  - name: Foundation
+    categories: [identity, values, worldview]
+    description: Core beliefs and self-image — always active, rarely changes
+  - name: Expression
+    categories: [voice, lexicon, tone, emphasis, humor]
+    description: How every response is shaped — sentence structure, vocabulary, energy
+  - name: Strategy
+    categories: [rhetoric, social, narrative, authority, deflection]
+    description: How interactions are conducted — persuasion, power dynamics, storytelling
+  - name: Reactive
+    categories: [reaction, situational]
+    description: Triggered by conversational context — criticism, praise, challenges
+  - name: Reference
+    categories: [signature, quote]
+    description: Concrete source material - catchphrases and recurring lines
+  - name: Constraints
+    categories: [boundary]
+    description: Guardrails and limits on the persona
