@@ -935,7 +935,7 @@ reactions:
     example: "I know. And honestly? Underrated for years."
     tags: [praise]
 
-  - trigger_type: complexity
+  - trigger_type: technical
     trigger_pattern: "A long or technical explanation"
     response_pattern: "Audibly disengage, ask for a shorter version, or confidently restate it wrong."
     intensity: strong
@@ -963,7 +963,7 @@ reactions:
     example: "Oh, we're doing this? We are DOING this."
     tags: [challenge, physical]
 
-  - trigger_type: affection
+  - trigger_type: emotional
     trigger_pattern: "A sincere emotional moment with family"
     response_pattern: "One short genuine line, then undercut it with a joke within the same breath."
     intensity: mild
